@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:regular&displayswap);
+@import url(https://fonts.googleapis.com/css?family=Lalezar:regular&displayswap);
+
+html {
+  background-color: rgb(51, 22, 0);
+  background-image: url(698440680_226690134_1706x960.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  text-align: start;
+  color: gold;
+  text-decoration: double;
+  font-family: Comfortaa;
+}
+
+header {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+header nav :hover{
+  color: #000;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #241700;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: gold;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+form {
+  background-color: #241700;
+  text-align: center;
+  padding: 20px 0;
+  display: inline-flex;
+}
+
+footer {
+  color: black;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Estilos para el carrito de compras */
+.cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin-bottom: 5px;
+}
+
+.cart button {
+  background-color: #00ff08;
+  color: white;
+  padding: 10px 20px;
+  border: black;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #45a049;
+}
+
+.info {
+  display: none;
+  background-color: #241700;
+  padding: 10px;
+}
+
+.elemento-fijo {
+  position: fixed;
+  top: 1%;
+  /* Puedes ajustar la posición según tus necesidades */
+  left: 90%;
+  /* Puedes ajustar la posición según tus necesidades */
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 0.5px #ccc;
+}
+
+ul li {
+  display: inline-block;
+  color: gold;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #000000;
+}
+
+.product {
+  display: inline-block;
+  color: gold;
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.products button {
+  background-color: #000;
+  /* Color de fondo */
+  border: none;
+  /* Quita el borde */
+  color: gold;
+  /* Color del texto */
+  padding: 15px 32px;
+  /* Espaciado dentro del botón */
+  text-align: center;
+  /* Alineación del texto */
+  text-decoration: none;
+  /* Quita el subrayado predeterminado */
+  display: inline-block;
+  /* Hace que el botón sea un bloque en línea */
+  font-size: 16px;
+  /* Tamaño del texto */
+  margin: 4px 2px;
+  /* Margen exterior */
+  cursor: pointer;
+  /* Cambia el cursor al pasar por encima */
+  border-radius: 10px;
+  /* Radio de borde para hacerlo más redondeado */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* Sombra */
+  transition: 0.3s;
+  /* Transición suave al cambiar propiedades */
+}
+
+.products button:hover {
+  padding: 15px 35px;
+}
+footer {
+  color: gold;
+  height: auto;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+}
+
+.rigt {
+  text-align: right;
+  position: -100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-rigt {
+left: 50%;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.ralla{
+  background-color: #fff;
+  width: 230px;
+  height: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+/* Estilos para modo vertical */
+@media screen and (orientation: portrait) {
+  .image-vertical {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  main {
+      display: none;
+  }
+}
+
+/* Estilos para modo horizontal */
+@media screen and (orientation: landscape) {
+  .image-vertical {
+      display: none;
+  }
+
+  main {
+      display: block;
+  }
+}

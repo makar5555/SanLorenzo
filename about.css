@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:regular&displayswap);
+@import url(https://fonts.googleapis.com/css?family=Lalezar:regular&displayswap);
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(51, 22, 0);
+  background-image: url(698440680_226690134_1706x960.webp);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+  text-align: center;
+  color: gold;
+  font-family: Comfortaa;
+ }
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+header nav :hover{
+  color: #000;
+}
+
+main {
+  background-color: #241700;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #241700;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;;
+    color: gold;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+form{
+  background-color: #241700;
+  text-align: center;
+  padding: 20px 0;
+  display: inline-flex;
+}
+
+footer {
+  color: black;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+}
+footer {
+  color: gold;
+  height: auto;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+}
+
+.rigt {
+  text-align: right;
+  position: -100px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-rigt {
+left: 50%;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.ralla-vertical{
+  background-color: #fff;
+  width: 230px;
+  height: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+ralla-horizontal{
+  background-color: #fff;
+  width: 10px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  margin-top: 0%;
+  margin-left: 40%;
+}
+
+/* Estilos para modo vertical */
+@media screen and (orientation: portrait) {
+  .image-vertical {
+      display: block;
+      width: 100%;
+      height: auto;
+  }
+
+  main {
+      display: none;
+  }
+}
+
+/* Estilos para modo horizontal */
+@media screen and (orientation: landscape) {
+  .image-vertical {
+      display: none;
+  }
+
+  main {
+      display: block;
+  }
+}

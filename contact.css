@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(51, 22, 0);
+  background-image: url(698440680_226690134_1706x960.webp);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
+  text-align: center;
+  color: gold;
+ }
+header {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #241700;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;;
+    color: gold;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+form{
+  background-color: #241700;
+  text-align: center;
+  padding: 20px 0;
+  display: inline-flex;
+}
+
+footer {
+  color: black;
+  height: 30px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+}
